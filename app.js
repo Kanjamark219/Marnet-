@@ -15,6 +15,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         // Redirect to home page upon successful login
         window.location.href = 'home.html';
     } else {
-        alert('Invalid username or password. Please try again.');
+        alert('Invalid username or password.  Please try again.');
     }
 });
